@@ -4,7 +4,7 @@ Trong core JS engine, có 3 phần (stack) chính:
 
 1. Thread execution
 2. Memory (varible enviroment)
-3.Call stack
+3. Call stack
 
 Nay thêm 1 số thành phần mới 
 4.Web browser APIs
