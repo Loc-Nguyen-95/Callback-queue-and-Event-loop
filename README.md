@@ -40,6 +40,7 @@ JS engine ưu tiên thực hiện code như thế nào ?
 - Sau đó kiểm tra call stack có trống không, nếu trống -> lấy code từ callback queue (nơi thêm vào các callback function) để thực thi
   
 ➡️ Sau khi global đã thực thi hết code -> kiểm tra call stack -> nếu trống -> callback queue lấy callback function -> đưa vào call stack để thực thi 
+
 ➡️ event loop làm tất cả những việc trên 
 
-Event loop sẽ làm nhiệm vụ kiểm tra ở Global execution context đã thực thi hết code chưa, call stack có đang trống không -> nếu 2 điều kiện trên thoả mãn thì đi đến callback queue để lấy code thực hiện (từ cái cũ nhất) 
+Event loop sẽ làm nhiệm vụ kiểm tra ở `Global execution context` đã thực thi hết code chưa, `Call stack` có đang trống không -> nếu 2 điều kiện trên thoả mãn thì đi đến callback queue để lấy code thực hiện (từ cái cũ nhất) 
