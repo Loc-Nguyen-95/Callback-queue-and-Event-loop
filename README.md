@@ -32,6 +32,8 @@ Khi ta chạy chương trình nó sẽ thực thi lần lược như sau:
 
 4.Khi đạt đến 1000ms On completion xác nhận hoàn thành, printHello được đẩy vào `Call stack` và thực thi in ra “hello”
 
+<img width="701" alt="Screenshot 2023-08-17 at 11 25 01" src="https://github.com/Loc-Nguyen-95/Callback-queue-and-Event-loop/assets/136717443/0ca50d36-7b89-4beb-b657-2d8d9950b4d2">
+
 ## 🎉 Tổng kết 
 
 JS engine ưu tiên thực hiện code như thế nào ?
