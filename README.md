@@ -1,7 +1,6 @@
 # Callback queue and Event loop
 
 JS là ngôn ngữ lập trình đơn luồng (1 câu lệnh được thực thi tại 1 thời điểm) và thực thi đồng bộ (thực thi theo thứ tự)
-
 Trong core JS engine, có 3 phần (stack) chính:
 
 1. Thread execution
